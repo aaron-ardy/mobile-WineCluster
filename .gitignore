@@ -1,4 +1,23 @@
+# Gradle
+.gradle/
+**/build/
+!**/src/**/build/
+gradle-app.setting
+.gradletasknamecache
+
+# Gradle Wrapper
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+# Android Studio
+.idea/
 *.iml
+*.ipr
+*.iws
+
+# Local configuration
 .gradle
 /local.properties
 /.idea/caches
@@ -13,3 +32,29 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Log files
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+bin/
+gen/
+out/
+
+# Eclipse (if ever used)
+.project
+.classpath
+
+# Misc
+*.swp
+*.swo
